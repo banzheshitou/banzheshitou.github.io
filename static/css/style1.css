@@ -1,0 +1,81 @@
+html,body{background:#fff;height:100%;margin:0;padding:0}
+.hidden{display:none}
+a.not-active{pointer-events:none;cursor:default}
+#background{display:block;position:relative;background:#fff;padding:0 0 40px;border:0;font:normal 16px HelveticaNeue Roman,Helvetica,Arial,Verdana,sans-serif;line-height:1.2}
+#header{display:block;width:1000px;position:fixed;background:#fff;height:100px;z-index:999;top:0;left:0;border-left:25px solid #000;border-bottom:2px solid #000}
+#headerText{position:absolute;left:120px;top:32px}
+#headerText a{color:#000;text-decoration:none}
+#headerText a:hover{cursor:pointer;color:#779bc3}
+#mypic{display:block}
+#mypic img{border-bottom-right-radius:15px}
+#contactSpace{float:right;margin-left:8px}
+#contactSpace .headpic{width:260px;border-top:10px;border-style:solid;border-color:#000;border-bottom-left-radius:10px}
+#contact{position:relative;left:15px;top:15px;font-size:16px;margin-bottom:30px}
+#contact a{color:#202020;text-decoration:none}
+#contact a:hover{cursor:pointer;color:#779bc3}
+* html body{padding-top:102px}
+* html,* html body{overflow-y:hidden;height:100%;margin-top:-102px}
+#mainMenu{position:fixed;background:#fff;left:0;top:100px;width:140px;height:352px;border-left:25px solid #000}
+.button{margin:0;padding:0;border:0}
+.button a{display:block}
+.button a:hover{background:#eee}
+#mainMenuContent{position:absolute;bottom:0}
+#mainMenu a{font-size:18px;font-weight:700;text-decoration:none;padding:6px 15px 5px 10px;color:#000}
+#home #nav_home,#pubs #nav_pub,#research #nav_research,#teach #nav_teach,#press #nav_press{pointer-events:none;cursor:default;color:#fff;background:#000}
+#secondMenu{position:fixed;background:#fff;left:175px;top:114px;width:120px;z-index:100;overflow:auto;border-left:3px solid #000;color:#000;font-weight:700;font-size:15px}
+#secondMenu ul{margin:0 0 0 -30px;text-align:left;list-style:none}
+#secondMenu li{margin:0 0 2px;float:left;clear:both}
+#secondMenu a{color:#000;text-decoration:none}
+#secondMenu a:hover{cursor:pointer;color:#e51837!important}
+#secondMenu .active{color:#e51837!important}
+#secondMenuBar{position:fixed;z-index:100;background:#000;left:175px;top:100px;width:850px;height:14px}
+#fadeInContent{width:1025px;position:absolute;left:310px;top:120px;width:725px}
+#oldDummy{z-index:2;position:absolute;opacity:1}
+#newDummy{z-index:1}
+#introInfo{margin-top:10px;color:#303030}
+#introInfo a{color:#000}
+#introInfo a:hover{cursor:pointer;color:#779bc3!important}
+#pubContainer{position:relative;z-index:2;background:#fff;min-height:100%}
+#paper{position:relative;width:694px;height:113px;margin-top:10px;padding:10px;border-radius:5px;background:#f0f0f0}
+#paper #paperimg{float:left;width:200px;display:block;margin:0 10px 0 0;padding:0;border:0}
+#paper #paperinfo{margin:0;padding:0;border:0;font-size:14px;color:#222}
+#paperinfo a{color:#f0f0f0;background:#666;text-decoration:none;padding:3px;border-radius:4px;font-weight:700}
+#paperinfo a:hover{cursor:pointer;background:#c1330c!important}
+#paperinfo .active{background:#c1330c!important}
+#abstract{position:relative;border-top:1px solid gray;width:694px;display:none;margin-top:-1px;padding:10px;background:#f0f0f0!important;border-bottom-left-radius:5px;border-bottom-right-radius:5px;font-size:14px;color:#222}
+#bibtex{position:relative;border-top:1px solid gray;width:694px;display:none;margin-top:-1px;padding:10px;background:#f0f0f0!important;border-bottom-left-radius:5px;border-bottom-right-radius:5px;color:#222;font-size:12px}
+.section{position:relative;margin:0;padding:0;border:0;background:#fff}
+.sectionHeader{margin:0;padding:6px 0 2px 12px;border:0;width:96px;color:#f0f0f0;font-family:HelveticaNeue Roman,Helvetica,Arial,Verdana,sans-serif;background:#000;font-size:16px;font-weight:700}
+.sectionBanner{position:relative;margin:0;padding:0;border:0;width:400px;height:2px;background:#000}
+#copyright{position:fixed;left:0;bottom:0;margin:5px;color:#888;font-size:10px}
+#loading{position:fixed;left:0;bottom:15px;margin:5px;color:#000;font-size:16px}
+.recentPubs{width:780px;list-style:none;left:0;margin:0;margin-left:-45px;margin-top:5px}
+.recentPubs li{float:left}
+.pubImgBox{position:relative;width:180px;height:102px;margin:1px}
+.pubImgBox img{border-radius:3px}
+.pubImgBox p{position:absolute;display:none;bottom:0;width:170px;z-index:100;background:transparent url(../image/bg_bw50.png) repeat;margin:0;border:0;padding:5px 0 5px 10px}
+.pubImgBox a{color:#fff}
+.morePub{text-align:right;margin:10px 0 0 -8px;padding:0;width:100%}
+.morePub a{color:#eee;background:#222;text-decoration:none;padding:3px;border-radius:4px;font-weight:700}
+.morePub a:hover{cursor:pointer;background:#c1330c}
+#course{position:relative;width:694px;height:113px;margin-top:10px;padding:10px;border-radius:5px;background:#f0f0f0}
+#course #courseinfo{margin:0;padding:0;border:0;font-size:14px;color:#222}
+#courseinfo a{color:#000;text-decoration:none;font-weight:700}
+#courseinfo a:hover{cursor:pointer;color:#779bc3!important}
+#people_para{position:relative;width:694px;height:auto;margin-top:4px;padding:2px}
+#people_para a{color:#000}
+#people_para a:hover{cursor:pointer;color:#779bc3!important}
+#people{position:relative;width:694px;height:113px;margin-top:8px;padding:6px;border-radius:5px;background:#f0f0f0}
+#people ul{margin:8px 0 8px -10px;text-align:left}
+#people ul li{margin:3px 0}
+#people a{color:#000;text-decoration:underline;font-weight:700}
+#people a:hover{cursor:pointer;color:#779bc3!important}
+#press-item{position:relative;width:694px;height:113px;margin-top:8px;padding:6px;border-radius:5px;background:#e8e8e8}
+#press-item a{color:#000;text-decoration:none;font-weight:700}
+#press-item a:hover{cursor:pointer;color:#779bc3!important}
+.grid-sizer,.grid-item{float:left;width:226px;background:#fff;margin-bottom:6px}
+.grid-item--width2{width:454px}
+.grid-item img{margin-left:10px;margin-top:10px}
+.grid-item .label{margin-left:10px;margin-top:10px;margin-bottom:10px;font-size:14px}
+.BWImg{position:relative;display:block}
+#introInfo #highlight{border:2px;border-style:solid;border-color:#000;padding:10px;background:#f0f0f0!important;color:#303030}

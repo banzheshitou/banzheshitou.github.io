@@ -1,0 +1,397 @@
+#everything {
+    font-family: Arial, sans-serif;
+    padding: 5px;
+    line-height: 1.3em;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+#header {
+    position: relative;
+    display: block;
+    height: 25em;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#header a {
+    color: black;
+}
+
+#header a:hover {
+    text-decoration: underline;
+}
+
+#header .left {
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid lightgray;
+}
+
+#headright {
+    position: absolute;
+    left: 0px;
+    top: 3.5em;
+    width: 100%;
+}
+
+#headright img {
+    padding: 2px;
+    margin: 0 auto;
+    display: block;
+    border: 0;
+}
+
+#header .right {
+    width: 100%;
+    margin-top: 19em;
+    left: 2em;
+}
+
+#header h2 {
+    padding-top: 5px;
+    margin-left: 0;
+    margin-right: 50px;
+    padding: 0;
+    display: inline-block;
+}
+
+#header .selected {
+    color: #ff872b;
+}
+
+#projectpage ul.publications {
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 2.0em;
+    margin-bottom: 10px;
+}
+
+h1.sectiontitle {
+    text-align: center;
+    clear:both;
+    padding: 20px;
+}
+
+h2.sectiontitle {
+    text-align: center;
+}
+
+#news dt {
+    font-weight: bold;
+}
+
+#news dd {
+    margin-left: 0;
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+.projecthead h1 {
+    text-align: center;
+    line-height: 1.3em;
+    margin-bottom: 0;
+}
+
+#projectpage .details {
+    text-align: center;
+    font-size 0.9em;
+}
+
+.teaser {
+    text-align: center;
+}
+
+h2 {
+    clear: both;
+    font-size: 1.2em;
+    padding: 20px 0 5px 0;
+    display: block;
+}
+
+p.researchoverview {
+    text-align: justify;
+}
+
+#projectpage h3 {
+    font-size: 1.1em;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+#projectpage p {
+    margin-bottom: 1.2em;
+    text-align: justify;
+}
+
+#projectpage ul {
+    list-style: square inside;
+    margin-bottom: 10px;
+}
+
+#projectpage ol {
+    margin-bottom: 10px;
+    list-style-position: outside;
+    padding-left: 1.5em;
+}
+
+#projectpage li {
+    margin-bottom: 5px;
+}
+
+#projectpage .contentel td {
+    vertical-align: top;
+    padding-bottom: 15px;
+}
+
+#projectpage .contentel .thumb {
+    width: 160px;
+}
+
+#projectpage .contentel .left {
+    text-align: right;
+}
+
+#projectpage .contentel .left img {
+    border: 1px solid black;
+    padding: 2px;
+}
+
+#projectpage .contentel .right {
+    padding-left: 10px;
+}
+
+#projectpage .contentel .right h3 a {
+    color: black;
+}
+
+#projectpage .eldesc {
+    text-align: justify;
+}
+
+a {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+a#email {
+    font-size: 1.2em;
+    color: #ff872b;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #3366cc;
+}
+
+#topcontent {
+}
+
+#headleft {
+}
+
+#headleft .intro {
+    width: 100%;
+}
+
+#headleft .introleft {
+    display: block;
+}
+
+#headleft .introleft p {
+    margin-bottom: 0.3em;
+}
+
+#headleft .contact {
+    display: block;
+    margin-top: 1em;
+}
+
+.topleftcontent {
+}
+
+#maincontent {
+    clear: both;
+}
+
+.publications li {
+    margin-bottom: 0.8em;
+}
+
+.publication {
+    line-height: 1.3em;
+    display: inline-block;
+    vertical-align: top;
+}
+.publication .author {
+    padding-right: 2px;
+}
+
+.publication .author a {
+}
+
+.publication .author.me a {
+    font-weight: bold;
+    color: #ff872b;
+}
+
+.publication .title {
+    font-weight: bold;
+}
+
+.publication .status {
+    font-size: 0.9em;
+}
+
+.publication .journal {
+    font-style: italic;
+}
+
+.publication .lastline {
+    font-size: 0.9em;
+}
+
+.publication .link, .talk .link, .lecture .link {
+    font-size: 0.9em;
+    margin-right: 5px;
+}
+
+.publication .bibref {
+}
+
+.fakelink {
+    cursor: pointer;
+}
+
+.bibref {
+    margin-top: 10px;
+    margin-left: 10px;
+    display:none;
+    font-family: monospace;
+}
+
+.summarydiv {
+    display: inline-block;
+    width: 290px;
+    height: 300px;
+    float: left;
+    margin: 0 11px 11px -2px;
+    border: 1px solid lightgray;
+    padding: 5px;
+}
+
+.summarydiv .sumhead {
+    text-align: center;
+    height: 4em;
+}
+
+.summarydiv div a {
+    color: black;
+}
+
+.summarydiv:hover {
+    text-decoration: none;
+    background: #ffbd8a;
+}
+
+.summarydiv .sumimg {
+    max-width: 200px;
+    height: 140px;
+    margin: 0 auto;
+}
+
+.summarydiv .sumimg img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.summarydiv .sumcontent {
+    margin-top: -1em;
+}
+
+.softwares .summarydiv .sumcontent {
+    margin-top: -3em;
+}
+
+.summarydiv h3 {
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.summarydiv .sumcontent p {
+    margin: 20px 0;
+}
+
+.summarydiv .bottom {
+    display: block;
+    position: absolute;
+    bottom: 10px;
+}
+
+/* .summarydiv .sumcontent .keywords */
+
+.keywords {
+    font-style: italic;
+}
+
+.date {
+    font-size: 0.9em;
+}
+
+#maincontent .pagenav {
+    display: block;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    font-weight: bold;
+}
+
+.pagenav li {
+    display: inline;
+    padding: 0 5px;
+
+}
+
+#footer {
+    clear: both;
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#pubfootnote {
+    margin-top: 3em;
+    font-size: 0.8em;
+    padding-left: 1.5em;
+}
+
+.talk, .class, .lecture {
+    list-style-position: outside;
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+}
+
+.lecturelinks {
+    list-style: square inside;
+}
+
+.talklocations {
+    list-style: square inside;
+}
+
+/* color scheme from http://colorschemedesigner.com/#3J51TqEHPw0w0 */

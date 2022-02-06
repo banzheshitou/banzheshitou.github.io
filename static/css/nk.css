@@ -1,0 +1,459 @@
+body {
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+#everything {
+    font-family: Arial, sans-serif;
+    line-height: 1.3em;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 481px) {
+    body {
+        margin: 0;
+    }
+
+    #everything {
+        width: 1000px;
+        padding: 10px;
+    }
+
+    #headleft {
+        float: left;
+        width: 794px;
+    }
+
+    #headright {
+        float: left;
+        width: 200px;
+    }
+
+    .topleftcontent {
+        padding-right: 10px;
+    }
+
+}
+
+ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+#writing ol, #writing ul {
+    list-style-position: outside;
+    padding-left: 1.2em;
+    margin-bottom: 1.2em;
+}
+
+#writing ul li {
+    list-style-type: square;
+}
+
+#writing li {
+    padding-bottom: 0.4em;
+}
+
+#writing h2 {
+    padding: 10px 0 5px 0;
+}
+
+#header {
+    position: relative;
+    display: block;
+    height: 2.2em;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
+}
+
+#header h2 {
+    margin-top: 5px;
+    display: inline-block;
+    margin-left: 15px;
+    padding: 0;
+}
+
+#header a {
+    color: black;
+}
+
+#header a:hover {
+    text-decoration: underline;
+}
+
+#header .left {
+    position: absolute;
+    left: 0;
+}
+
+#header .left h2 {
+    margin-left: 0;
+}
+
+#header .right {
+    position: absolute;
+    right: 0;
+}
+
+#header .selected {
+    color: #ff872b;
+}
+
+#projectpage ul.publications {
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 2.0em;
+    margin-bottom: 10px;
+}
+
+h1.sectiontitle {
+    text-align: center;
+    clear:both;
+    padding: 20px;
+}
+
+h2.sectiontitle {
+    text-align: center;
+}
+
+#news dt {
+    font-weight: bold;
+}
+
+#news dd {
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+
+.projecthead h1 {
+    text-align: center;
+    line-height: 1.3em;
+    margin-bottom: 0;
+}
+
+#projectpage .details, #writing .details {
+    text-align: center;
+    font-size 0.9em;
+}
+
+.teaser {
+    text-align: center;
+}
+
+h2 {
+    clear: both;
+    font-size: 1.2em;
+    padding: 20px 0 5px 0;
+    display: block;
+}
+
+p.researchoverview {
+    text-align: justify;
+}
+
+#projectpage h3 {
+    font-size: 1.1em;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+#projectpage p, #writing p {
+    margin-bottom: 1.2em;
+    text-align: justify;
+}
+
+#projectpage ul {
+    list-style: square inside;
+    margin-bottom: 10px;
+}
+
+#projectpage ol {
+    margin-bottom: 10px;
+    list-style-position: outside;
+    padding-left: 1.5em;
+}
+
+#projectpage li {
+    margin-bottom: 5px;
+}
+
+#projectpage .contentel td {
+    vertical-align: top;
+    padding-bottom: 15px;
+}
+
+#projectpage .contentel .thumb {
+    width: 160px;
+}
+
+#projectpage .contentel .left {
+    text-align: right;
+}
+
+#projectpage .contentel .left img {
+    border: 1px solid black;
+    padding: 2px;
+}
+
+#projectpage .contentel .right {
+    padding-left: 10px;
+}
+
+#projectpage .contentel .right h3 a {
+    color: black;
+}
+
+#projectpage .eldesc {
+    text-align: justify;
+}
+
+#writing .description {
+    margin-top: 2em;
+}
+
+a {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+a#email {
+    font-size: 0.9em;
+    color: #ff872b;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #3366cc;
+}
+
+#topcontent {
+}
+
+#headright img {
+    padding: 2px;
+    border: 1px solid lightgray;
+}
+
+#headleft .intro {
+    width: 100%;
+}
+
+#headleft .introleft {
+    display: inline-block;
+    margin-right: 5em;
+    font-size: 1.2em;
+}
+
+#headleft .intro p {
+    margin-top: 2px;
+}
+
+#headleft .contact {
+    display: inline-block;
+}
+
+#maincontent {
+    clear: both;
+}
+
+.publications li {
+    margin-bottom: 0.8em;
+}
+
+.publication {
+    line-height: 1.3em;
+    display: inline-block;
+    vertical-align: top;
+}
+.publication .author {
+    padding-right: 2px;
+}
+
+.publication .author a {
+}
+
+.publication .author.me a {
+    font-weight: bold;
+    color: #ff872b;
+}
+
+.publication .title {
+    font-weight: bold;
+}
+
+.publication .status {
+    font-size: 0.9em;
+}
+
+.publication .journal {
+    font-style: italic;
+}
+
+.publication .lastline {
+    font-size: 0.9em;
+}
+
+.publication .link, .talk .link, .lecture .link {
+    font-size: 0.9em;
+    margin-right: 5px;
+}
+
+.publication .bibref {
+}
+
+.fakelink {
+    cursor: pointer;
+}
+
+.bibref {
+    margin-top: 10px;
+    margin-left: 10px;
+    display:none;
+    font-family: monospace;
+}
+
+.summarydiv {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin: 0 21px 21px 0;
+    border: 1px solid lightgray;
+    padding: 5px;
+}
+
+.summarydiv .sumhead {
+    text-align: center;
+    height: 4em;
+}
+
+.summarydiv div a {
+    color: black;
+}
+
+.summarydiv div .desc a {
+    color: #3366cc;
+}
+
+.summarydiv:hover {
+    text-decoration: none;
+    background: #ffbd8a;
+}
+
+.summarydiv .sumimg {
+    max-width: 200px;
+    height: 140px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.summarydiv .sumimg img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.summarydiv .sumcontent {
+    margin-top: -1em;
+}
+
+.softwares .summarydiv .sumcontent {
+    margin-top: -3em;
+}
+
+.summarydiv h3 {
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.summarydiv .sumcontent p {
+    margin: 20px 0;
+}
+
+.summarydiv .bottom {
+    display: block;
+    position: absolute;
+    bottom: 10px;
+}
+
+/* .summarydiv .sumcontent .keywords */
+
+.keywords {
+    font-style: italic;
+}
+
+.date {
+    font-size: 0.9em;
+}
+
+#maincontent .pagenav {
+    display: block;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    font-weight: bold;
+}
+
+.pagenav li {
+    display: inline;
+    padding: 0 5px;
+
+}
+
+#footer {
+    clear: both;
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#pubfootnote {
+    margin-top: 3em;
+    font-size: 0.8em;
+    padding-left: 1.5em;
+}
+
+.talk, .class, .lecture {
+    list-style-position: outside;
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+}
+
+.lecturelinks {
+    list-style: square inside;
+}
+
+.talklocations {
+    list-style: square inside;
+}
+
+/* color scheme from http://colorschemedesigner.com/#3J51TqEHPw0w0 */
+
+.fancybox-title {
+    padding: 5px;
+    background: paleturquoise;
+    color: black;
+}
+
+pre {
+    margin: 0.5em 2em;
+}
+
+.writings ul {
+    list-style: square inside;
+}
+
+.footnote {
+    margin-top: 2em;
+    font-style: italic;
+}

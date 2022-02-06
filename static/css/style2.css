@@ -1,0 +1,52 @@
+BODY
+{
+    FONT-SIZE: 12px;
+    BACKGROUND: white;
+	overflow: auto;
+	padding: 0;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Helvetica
+}
+TABLE
+{
+    FONT-SIZE: 12px;
+    FONT-FAMILY: Verdana, Helvetica
+}
+H2
+{
+    FONT-SIZE: 24px;
+    FONT-FAMILY: Verdana, Helvetica
+}
+H3
+{
+    FONT-SIZE: 18px;
+    FONT-FAMILY: Verdana, Helvetica
+}
+H4
+{
+    FONT-SIZE: 12px;
+    FONT-FAMILY: Verdana, Helvetica
+}
+
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+a:active {
+	color: #000000;
+	text-decoration: none;
+}
+
+

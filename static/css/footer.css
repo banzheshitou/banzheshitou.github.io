@@ -1,0 +1,21 @@
+.footer {
+  background-color: black;
+  margin-top: 150px;
+}
+
+.footer-text {
+  margin-top: 10px;
+  display: block;
+  font-size: 18px;
+  text-decoration: none;
+  color: #ffffff8c;
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: "Open Sans";
+}
+
+.footer-text:hover {
+  text-decoration: none;
+  color: white;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
