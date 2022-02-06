@@ -1,0 +1,159 @@
+
+<html><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<link rel="shortcut icon" href="favicon.ico">
+	<title>WUST | Projects: Histogram-based Fuzzy C-Means Clustering for Image Binarization</title>
+	<meta name="description" content="Histogram-based Fuzzy C-Means Clustering for Image Binarization">
+	<meta name="keyword" content="WUST, Computer Vision Lab, Wuhan University of Science and Technology, vision, environment, laboratory, Projects, Histogram-based Fuzzy C-Means Clustering for Image Binarization">
+	<link rel="stylesheet" href="static/css/projects.css" type="text/css">
+	<script type="text/javascript" src="static/js/analytics.js" async=""></script>
+</head>
+
+<body bgcolor="#ffffff">
+	<table width="982" height="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+		<tr>
+			<td width="59" rowspan="3" align="left" valign="baseline" background="/CAVE/bkgnd/left_side.gif">&nbsp;</td>
+			<td width="864" height="42" align="left" valign="baseline" bgcolor="#F6F4EC"><div align="left"><iframe src="top_thin_projects_color.html" width="864" height="42" scrolling="no" frameborder="no" allowtransparency="true" name="viewcourse"></iframe>
+			</div></td>
+			<td width="59" rowspan="3" align="left" valign="baseline" background="/CAVE/bkgnd/right_side.gif">&nbsp;</td>
+		</tr>
+		<tr>
+			<td height="100%" align="left" valign="baseline" bgcolor="#ffffff">
+			<div align="center"><table width="709" border="0" cellspacing="30" cellpadding="0">
+		
+				<tr>
+					<td><div align="center"><font size="+2">Histogram-based Fuzzy C-Means Clustering for Image Binarization</font></div></td>
+				</tr><tr>
+						<td><center><img src="static/picture/teaser11.png" width="700"></center></td></tr><tr><td>
+<p>In this project, we show how to quantify the concept of gameplay &mdash; or action &mdash; by analyzing
+players' controller inputs using probabilistic topic models. This stage in <i>Super Mario Bros. 3</i>,
+for example, can be described as a blend of gameplay types with a 35% mix of jumping around flying
+enemies and a 23% mix of making precise running jumps onto narrow platforms. Our method makes it possible
+for developers to verify that their levels feature the appropriate style of gameplay and to recommend
+levels with gameplay that is similar to levels that players like.
+<i>Super Mario Bros. 3</i> &copy; Nintendo.</p></td></tr>
+				<tr>
+					<td><h3 id="Publications">Publications</h3>
+						<blockquote>
+				<b>"Mining Controller Inputs to Understand Gameplay," </b><br>B.A. Smith and S.K. Nayar, <br>ACM Symposium on User Interface Software and Technology (UIST), <br>pp. 157-168, Oct. 2016.<br> [<a href="mining_controller_inputs.html" target="new">PDF</a>] [<a href="pub_bibtex-346.html">bib</a>] [<a href="copyright.html">&copy;</a>]<br><br>
+						</blockquote>
+					</td>
+				</tr>
+				
+				<tr>
+					<td align="left">
+						<h3 id="Images">Images</h3>
+				
+						<table border="0" cellpadding="0" cellspacing="6">
+				
+						<tr>
+							<td align="left" valign="middle" width="171"><a href="static/file/recommending_stages.png"><img class="imgthumb" src="static/picture/recommending_stages_thumb.png" border="1"></a></td>
+							<td align="left" valign="middle" width="10">&nbsp;</td>
+							<td align="left" valign="middle" width="512">
+								<strong>Recommending Stages Based on Gameplay:</strong>
+								<p class="mediadescription">Here is an example of how our method can recommend levels that play similarly to ones that players
+like. Although these levels look quite different from each other at first glance, they all share this
+primary type of gameplay: jumping around flying enemies and projectiles. Here we see (from top-left to
+bottom-right) Flying Cheep-Cheeps, Fire Chomps and their fireballs, Podoboos, and Hammer Bros. Players
+who like the type of action in one of these levels should enjoy the other levels as well.</p>
+							</td>
+						</tr>
+						<tr>
+							<td height="8">&nbsp;</td>
+							<td height="8">&nbsp;</td>
+							<td height="8">&nbsp;</td>
+						</tr>
+					
+						<tr>
+							<td align="left" valign="middle" width="171"><a href="static/file/inferring_choices.png"><img class="imgthumb" src="static/picture/inferring_choices_thumb.png" border="1"></a></td>
+							<td align="left" valign="middle" width="10">&nbsp;</td>
+							<td align="left" valign="middle" width="512">
+								<strong>Inferring Players' Choices with Controller Inputs Alone:</strong>
+								<p class="mediadescription">Developers can also use our method to infer the specific choices that a player makes within a game, as
+long as those choices manifest themselves in the controller inputs that he or she enters. As an example,
+here is World 3-Fortress2 with and without the Frog Suit, respectively. The Frog Suit allows Mario to swim
+in the water much more easily. This stage is difficult and culminates in a mini-boss fight, so many players
+save a Frog Suit to wear for the occasion. By examining the gameplay type mixtures of a playthrough of this
+level, we can tell whether the player wore the Frog Suit or completed it the hard way.</p>
+							</td>
+						</tr>
+						<tr>
+							<td height="8">&nbsp;</td>
+							<td height="8">&nbsp;</td>
+							<td height="8">&nbsp;</td>
+						</tr>
+					
+						<tr>
+							<td align="left" valign="middle" width="171"><a href="static/file/player_recognition.png"><img class="imgthumb" src="static/picture/player_recognition_thumb.png" border="1"></a></td>
+							<td align="left" valign="middle" width="10">&nbsp;</td>
+							<td align="left" valign="middle" width="512">
+								<strong>Real-Time Player Recognition:</strong>
+								<p class="mediadescription">In addition to profiling game levels based on the gameplay types that they foster, our method uses players'
+controller inputs to profile the players themselves. It automatically learns the distinguishing factors of
+each player's unique playing style &mdash; factors such as floating a lot compared to other players and performing
+maneuvers that only expert players can perform. Here we demonstrate a player recognition system based on
+controller inputs alone. The three players took turns playing by passing the controller to each other every
+45 seconds. The system can recognize a player from a database of eight players with over 90% accuracy in about
+20 seconds of playtime, even for levels that the player has never played before and even when the controller
+is passed from another player.</p>
+							</td>
+						</tr>
+						<tr>
+							<td height="8">&nbsp;</td>
+							<td height="8">&nbsp;</td>
+							<td height="8">&nbsp;</td>
+						</tr>
+					
+						</table>
+					</td>
+				</tr>
+				
+				<tr>
+					<td align="left">
+						<h3 id="Videos">Videos</h3>
+				
+						<table border="0" cellpadding="0" cellspacing="6">
+				
+						<tr>
+							<td align="left" valign="middle" width="171"><a href="javascript:;"><img class="imgthumb" src="static/picture/video_preview_thumb.png" border="1"></a></td>
+							<td align="left" valign="middle" width="10">&nbsp;</td>
+							<td align="left" valign="middle" width="512">
+								<strong>UIST 2016 Video Preview:</strong>
+								<p class="mediadescription">A 30-second video preview of the project.</p>
+							</td>
+						</tr>
+						<tr>
+							<td height="8">&nbsp;</td>
+							<td height="8">&nbsp;</td>
+							<td height="8">&nbsp;</td>
+						</tr>
+					
+						<tr>
+							<td align="left" valign="middle" width="171"><a href="javascript:;"><img class="imgthumb" src="static/picture/uist_2016_talk_thumb.png" border="1"></a></td>
+							<td align="left" valign="middle" width="10">&nbsp;</td>
+							<td align="left" valign="middle" width="512">
+								<strong>UIST 2016 Talk:</strong>
+								<p class="mediadescription">The 17-minute conference presentation given at UIST 2016.</p>
+							</td>
+						</tr>
+						<tr>
+							<td height="8">&nbsp;</td>
+							<td height="8">&nbsp;</td>
+							<td height="8">&nbsp;</td>
+						</tr>
+					
+						</table>
+					</td>
+				</tr>
+				
+			<tr><td height="20"></td></tr>
+			</table></div>
+			</td>
+		</tr>
+		<tr>
+			<td height="100" align="left" valign="baseline"><iframe src="footer.html" width="864" height="100" scrolling="no" frameborder="no" allowtransparency="true" name="viewcourse"></iframe></td>
+		</tr>
+	</table>
+</body>
+</html>
+		

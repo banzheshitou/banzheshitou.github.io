@@ -1,0 +1,262 @@
+
+<html><head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<link rel="shortcut icon" href="favicon.ico">
+	<title>WUST | Projects: The Minimalist Camera</title>
+	<meta name="description" content="The Minimalist Camera">
+	<meta name="keyword" content="WUST, Computer Vision Lab, Wuhan University of Science and Technology, vision, environment, laboratory, Projects, The Minimalist Camera">
+	<link rel="stylesheet" href="../static/css/projects.css" type="text/css">
+	<script type="text/javascript" src="static/js/analytics.js" async=""></script>
+</head>
+
+<body bgcolor="#ffffff">
+	<table width="982" height="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+		<tr>
+			<td width="59" rowspan="3" align="left" valign="baseline" background="/CAVE/bkgnd/left_side.gif">&nbsp;</td>
+			<td width="864" height="42" align="left" valign="baseline" bgcolor="#F6F4EC"><div align="left"><iframe src="../static/picture/top_thin_projects_color.gif" width="864" height="42" scrolling="no" frameborder="no" allowtransparency="true" name="viewcourse"></iframe>
+			</div></td>
+			<td width="59" rowspan="3" align="left" valign="baseline" background="/CAVE/bkgnd/right_side.gif">&nbsp;</td>
+		</tr>
+		<tr>
+			<td height="100%" align="left" valign="baseline" bgcolor="#ffffff">
+			<div align="center"><table width="709" border="0" cellspacing="30" cellpadding="0">
+		
+				<tr>
+					<td><div align="center"><font size="+2">The Minimalist Camera</font></div></td>
+				</tr><tr>
+						<td><center><img src="../static/projects/teaser.png" width="700"></center></td></tr><tr><td>
+<p> We present the minimalist camera (mincam), a design framework to capture the scene
+information with minimal resources and without constructing an image. The basic sensing
+unit of a mincam is a ‘mixel’ — an optical photo-detector that aggregates light from
+the entire scene linearly modulated by a static mask. We precompute a set of masks for a
+configuration of few mixels, such that they retain minimal information relevant to a task.
+We show how tasks such as tracking moving objects or determining a vehicle’s speed can
+be accomplished with a handful of mixels as opposed to the more than a million pixels
+used in traditional photography. Since mincams are passive, compact, low powered and
+inexpensive, they can potentially find applications in a broad range of scenarios.</p></td></tr>
+				<tr>
+					<td><h3 id="Publications">Publications</h3>
+						<blockquote>
+				<b>"The Minimalist Camera," </b><br>P. Pooj, M. Grossberg, P.N. Belhumeur and S.K. Nayar, <br>British Machine Vision Conference 2018, {BMVC} 2018, Northumbria University, Newcastle, UK, September 3-6, 2018, <br>pp. 141, Sep. 2018.<br> [<a href="javascript:;" target="new">PDF</a>] [<a href="../pub_bibtex-355.html">bib</a>] [<a href="../copyright.html">&copy;</a>]<br><br>
+						</blockquote>
+					</td>
+				</tr>
+				
+				<tr>
+					<td align="left">
+						<h3 id="Images">Images</h3>
+				
+						<table border="0" cellpadding="0" cellspacing="6">
+				
+						<tr>
+							<td align="left" valign="middle" width="171"><a href="../static/file/minimalist_camera.jpg"><img class="imgthumb" src="../static/projects/mixel_thumb.png" border="1"></a></td>
+							<td align="left" valign="middle" width="10">&nbsp;</td>
+							<td align="left" valign="middle" width="512">
+								<strong>High Level Idea:</strong>
+								<p class="mediadescription">The Minimalist Camera takes a step toward answering the question: what is the minimum
+number of pixels needed to retrieve information relevant to a task? We provide a design framework
+to answer this question using the camera architecture inspired from a Single Pixel Camera.
+A ‘mixel’ (masked pixel) is the smallest unit of a Minimalist Camera. A mixel, as shown on the left,
+ is a pixel that measures a brightness of P(t) at time t by aggregating light incident
+through the static mask, M(x,y) placed at a distance of d_f.
+We design the Minimalist Camera (MinCam) by combining multiple mixels. Two main design questions
+are addressed to design a MinCam: 1) What masks are useful to solve a given task?
+2) Can we solve the task using the minimum number of mixels.</p>
+							</td>
+						</tr>
+						<tr>
+							<td height="8">&nbsp;</td>
+							<td height="8">&nbsp;</td>
+							<td height="8">&nbsp;</td>
+						</tr>
+					
+						<tr>
+							<td align="left" valign="middle" width="171"><a href="../static/file/hardware.jpg"><img class="imgthumb" src="../static/projects/hardware_thumb.png" border="1"></a></td>
+							<td align="left" valign="middle" width="10">&nbsp;</td>
+							<td align="left" valign="middle" width="512">
+								<strong>Hardware Prototype:</strong>
+								<p class="mediadescription">We build a hardware prototype for our proposed MinCam design. Each camera is equivalent to
+a Mixel and gives one measurement. Figure (a) shows the grid of 48x48 pixels at the center
+of a camera’s sensor array. This grid is averaged to obtain one 12-bit mixel measurement, P(t).
+The mask design for four outer mixels is slid into the slot as shown in (b).
+(c) Four outer cameras become mixels after the mask is placed. (d) An
+example of a mincam prototype with four mixels and a center camera with lens to capture
+ground truth.</p>
+							</td>
+						</tr>
+						<tr>
+							<td height="8">&nbsp;</td>
+							<td height="8">&nbsp;</td>
+							<td height="8">&nbsp;</td>
+						</tr>
+					
+						<tr>
+							<td align="left" valign="middle" width="171"><a href="static/file/intrusion_1D.jpg"><img class="imgthumb" src="../static/projects/intrusion_1D_thumb.jpg" border="1"></a></td>
+							<td align="left" valign="middle" width="10">&nbsp;</td>
+							<td align="left" valign="middle" width="512">
+								<strong>Intrusion Detection along a 1D Boundary:</strong>
+								<p class="mediadescription">1D intrusion detection at boundary, y = y0 can be detected using a MinCam with two mixels.
+Two masks designed as shown in (a) for the two mixels are used to detect and locate intrusion.
+As shown in (b), the intruding object changes the initial intensity, I_{t=0}(x, y0)
+by the disturbance, D(x, y0). We recover the centroid of this disturbance, \bar{x}.</p>
+							</td>
+						</tr>
+						<tr>
+							<td height="8">&nbsp;</td>
+							<td height="8">&nbsp;</td>
+							<td height="8">&nbsp;</td>
+						</tr>
+					
+						<tr>
+							<td align="left" valign="middle" width="171"><a href="../static/file/intrusion_1D_results.jpg"><img class="imgthumb" src="../static/projects/intrusion_1D_results_thumb.png" border="1"></a></td>
+							<td align="left" valign="middle" width="10">&nbsp;</td>
+							<td align="left" valign="middle" width="512">
+								<strong>Results for 1D Intrusion Detection:</strong>
+								<p class="mediadescription">Results of the physical experiment conducted using two toy cars for demonstrating
+the application. The cars crossing the finish line boundary at x = x0 are detected and located
+at the red dot for the position of intrusion. The correct position is predicted with a maximum
+error rate of 11.42% and an average error rate of 4.83%. A complete video of the car race is
+provided in the supplementary material for proper analysis of results.</p>
+							</td>
+						</tr>
+						<tr>
+							<td height="8">&nbsp;</td>
+							<td height="8">&nbsp;</td>
+							<td height="8">&nbsp;</td>
+						</tr>
+					
+						<tr>
+							<td align="left" valign="middle" width="171"><a href="../static/file/masks_2D.jpg"><img class="imgthumb" src="../static/projects/masks_2D.png" border="1"></a></td>
+							<td align="left" valign="middle" width="10">&nbsp;</td>
+							<td align="left" valign="middle" width="512">
+								<strong>Mixel masks for Naive Object Tracking:</strong>
+								<p class="mediadescription">An object's approximate centroid of intensity can be tracked by using a minimalist camera
+with four mixels whose masks are shown here.</p>
+							</td>
+						</tr>
+						<tr>
+							<td height="8">&nbsp;</td>
+							<td height="8">&nbsp;</td>
+							<td height="8">&nbsp;</td>
+						</tr>
+					
+						<tr>
+							<td align="left" valign="middle" width="171"><a href="../static/file/intrusion_2D_results.png"><img class="imgthumb" src="../static/projects/intrusion_2D_results_thumb.png" border="1"></a></td>
+							<td align="left" valign="middle" width="10">&nbsp;</td>
+							<td align="left" valign="middle" width="512">
+								<strong>Results for Naive Object Tracking:</strong>
+								<p class="mediadescription">We use wind-up toys as moving objects against a static background to conduct experiments for Naive Object Tracking.
+Close-up shots of the tracked objects are shown in the top right corner of
+each image. The predicted position (red dot) is correctly identified within a maximum error
+rate of 6.78% with an average error rate of 2.82%. The complete video results for all toys
+are provided in the supplementary material.</p>
+							</td>
+						</tr>
+						<tr>
+							<td height="8">&nbsp;</td>
+							<td height="8">&nbsp;</td>
+							<td height="8">&nbsp;</td>
+						</tr>
+					
+						<tr>
+							<td align="left" valign="middle" width="171"><a href="../static/file/speed_estimation.jpg"><img class="imgthumb" src="../static/projects/speed_estimation_thumb.png" border="1"></a></td>
+							<td align="left" valign="middle" width="10">&nbsp;</td>
+							<td align="left" valign="middle" width="512">
+								<strong>Speed Estimation using a Minimalist Camera Design:</strong>
+								<p class="mediadescription">Here we show that the speed of a moving vehicale can be estimated using a MinCam
+with one mixel. We design the mixel with a sinusoid mask design. As the car moves along the road,
+the mincam correlates with the road's texture. Since correlation in spatial domain is equivalent to
+multiplication in Fourier domain, the mincam filters the spatial frequency equivalent to
+the mask frequency from the road's texture. The frequency of the signal measured by the mixel
+increases monotonically with the speed of the car and can thus be retrieved from the measured signal.</p>
+							</td>
+						</tr>
+						<tr>
+							<td height="8">&nbsp;</td>
+							<td height="8">&nbsp;</td>
+							<td height="8">&nbsp;</td>
+						</tr>
+					
+						<tr>
+							<td align="left" valign="middle" width="171"><a href="../static/file/speed_estimation_results.jpg"><img class="imgthumb" src="../static/projects/speed_estimation_results.png" border="1"></a></td>
+							<td align="left" valign="middle" width="10">&nbsp;</td>
+							<td align="left" valign="middle" width="512">
+								<strong>Results for Speed Estimation:</strong>
+								<p class="mediadescription">We use the hardware prototype to show the proof-of-concept for speed estimation using a MinCam.
+A moving road is shown on a TV screen and the MinCam is stationary above the scene.
+The speed is measured in terms of the pixels travelled by the road scene on the display
+in one second, as observed by the stationary mixel. The speed predicted
+from \omega_p is plotted against the correct speed. The prediction is within a maximum error rate
+of 7.55 % with an average error rate of 2.85%.</p>
+							</td>
+						</tr>
+						<tr>
+							<td height="8">&nbsp;</td>
+							<td height="8">&nbsp;</td>
+							<td height="8">&nbsp;</td>
+						</tr>
+					
+						</table>
+					</td>
+				</tr>
+				
+				<tr>
+					<td align="left">
+						<h3 id="Video">Video</h3>
+				
+						<table border="0" cellpadding="0" cellspacing="6">
+				
+						<tr>
+							<td align="left" valign="middle" width="171"><a href="javascript:;"><img class="imgthumb" src="../static/projects/slides_thumb.png" border="1"></a></td>
+							<td align="left" valign="middle" width="10">&nbsp;</td>
+							<td align="left" valign="middle" width="512">
+								<strong>BMVC 2018 Summary Video:</strong>
+								<p class="mediadescription">This video introduces the complete system for automatic face replacement in
+images, summarizes the face replacement algorithm, and demonstrates several
+applications of our method, including face de-identification, personalized face
+replacement, and the creation of appealing group photographs from a set of
+images. (With narration)
+<br><br>
+<a href="javascript:;">Youtube Video</a></p>
+							</td>
+						</tr>
+						<tr>
+							<td height="8">&nbsp;</td>
+							<td height="8">&nbsp;</td>
+							<td height="8">&nbsp;</td>
+						</tr>
+					
+						</table>
+					</td>
+				</tr>
+				
+				<tr>
+					<td align="left"><h3 id="Slides">Slides</h3>
+						<blockquote>
+				<p><a href="javascript:;">Presentation</a> &nbsp &nbsp <a href="javascript:;">With videos (zip file)</a></p>
+
+						</blockquote>
+					</td>
+				</tr>
+				
+				<tr>
+					<td align="left">
+						<h3 id="Related Project">Related Project</h3>
+						<blockquote>
+				<p><a href="index1.html">Video from a Single Exposure Coded Photograph</a></p>
+
+						</blockquote>
+					</td>
+				</tr>
+				
+			<tr><td height="20"></td></tr>
+			</table></div>
+			</td>
+		</tr>
+		<tr>
+			<td height="100" align="left" valign="baseline"><iframe src="../footer.html" width="864" height="100" scrolling="no" frameborder="no" allowtransparency="true" name="viewcourse"></iframe></td>
+		</tr>
+	</table>
+</body>
+</html>
+		

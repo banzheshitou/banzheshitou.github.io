@@ -1,0 +1,66 @@
+<script language="JavaScript">
+<!--
+=new Array();
+=new Array();
+=new Array();
+=new Array();
+=new Array();
+,,,,);
+len=0;
+for(i=0;i<areas.length;i++){
+	if(areas[i].length>len){
+		len=areas[i].length;
+	}
+}
+pos=-1;
+function SelectChange(){
+	pos=document.research.area.selectedIndex;
+	if(pos>=0){
+		val=0;
+		for(i=0;i<len;i++){
+			delete document.research.topic.options[i];
+		}
+		
+		for(i=0;i<len;i++){
+			if(areas[pos].length<len && areas[pos].length<=i){
+				document.research.topic.options[i-val]=null;
+				val++;
+			}else{
+				document.research.topic.options[i]=new Option(areas[pos][i],areas[pos][i]);
+			}
+		}
+	}
+}
+-->
+
+</script>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Topic Selectbox (Publications)</title>
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="static/css/style2.css" type="text/css">
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+-->
+</style>
+</head>
+
+<body>
+<form name="research" method="post" action="index.php" target="_parent">
+<strong>Topic</strong>
+<select name="topic">
+<option selected="" value="1">All</option><option value="45">Appearance Matching</option><option value="43">Calibration</option><option value="2">Catadioptric</option><option value="19">Color</option><option value="40">Computational Camera</option><option value="47">Computational Displays</option><option value="34">Correspondence</option><option value="24">Face Recognition</option><option value="22">Feature Detection</option><option value="6">Focus and Defocus</option><option value="4">High Dynamic Range</option><option value="21">Image Representation</option><option value="36">Lighting Method</option><option value="8">Mosaicing</option><option value="31">Motion</option><option value="42">Motion Blur</option><option value="5">Multispectral</option><option value="41">Non-Single Viewpoint</option><option value="23">Object Recognition</option><option value="38">Participating Media</option><option value="44">Photometric Invariants</option><option value="20">Polarization</option><option value="10">Programmable Imaging</option><option value="11">Projector-Camera</option><option value="12">Radiometry</option><option value="13">Reflectance</option><option value="49">Reflectance Model</option><option value="26">Relighting</option><option value="27">Rendering</option><option value="46">Search</option><option value="35">Segmentation</option><option value="25">Shading Model</option><option value="33">Shape from X</option><option value="28">Smart Projectors</option><option value="17">Specularity</option><option value="30">Stereo</option><option value="9">Stereo Cameras</option><option value="29">Structured Light</option><option value="32">Subsurface Scattering</option><option value="7">Super-resolution</option><option value="14">Texture Model</option><option value="37">Time Varying Phenomena</option><option value="18">Transparency</option><option value="16">Volumetric Scattering</option><option value="15">Weather</option><option value="3">Wide Angle</option></select>
+ <input type="hidden" name="area" value="1">
+ <input type="submit" name="Submit" value="Submit">
+</form>
+</body>
+</html>

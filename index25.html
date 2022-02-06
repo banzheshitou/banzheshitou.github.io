@@ -1,0 +1,134 @@
+
+<html><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<link rel="shortcut icon" href="http://www.cs.columbia.edu/CAVE/favicon.ico">
+	<title>CAVE | Projects: DisCo: Displays that Communicate</title>
+	<meta name="description" content="DisCo: Displays that Communicate">
+	<meta name="keyword" content="CAVE, Computer Vision Lab, Columbia University, vision, environment, laboratory, Projects, DisCo: Displays that Communicate">
+	<link rel="stylesheet" href="static/css/projects.css" type="text/css">
+	<script type="text/javascript" src="static/js/analytics.js" async=""></script>
+</head>
+
+<body bgcolor="#ffffff">
+	<table width="982" height="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+		<tr>
+			<td width="59" rowspan="3" align="left" valign="baseline" background="/CAVE/bkgnd/left_side.gif">&nbsp;</td>
+			<td width="864" height="42" align="left" valign="baseline" bgcolor="#F6F4EC"><div align="left"><iframe src="top_thin_projects_color.html" width="864" height="42" scrolling="no" frameborder="no" allowtransparency="true" name="viewcourse"></iframe>
+			</div></td>
+			<td width="59" rowspan="3" align="left" valign="baseline" background="/CAVE/bkgnd/right_side.gif">&nbsp;</td>
+		</tr>
+		<tr>
+			<td height="100%" align="left" valign="baseline" bgcolor="#ffffff">
+			<div align="center"><table width="709" border="0" cellspacing="30" cellpadding="0">
+		
+				<tr>
+					<td><div align="center"><font size="+2">DisCo: Displays that Communicate</font></div></td>
+				</tr><tr>
+						<td><center><img src="static/picture/teaser10.png" width="700"></center></td></tr><tr><td>
+<p> 
+We present DisCo, a novel display-camera communication system. DisCo enables displays and cameras to communicate with each other, while also displaying and capturing images for human consumption. Messages are transmitted by temporally modulating the display brightness at high frequencies so that they are imperceptible to humans. Messages are received by a rolling shutter camera which converts the temporally modulated incident light into a spatial flicker pattern. In the captured image, the flicker pattern is superimposed on the pattern shown on the display. The flicker and the display pattern are separated by capturing two images with different exposures. The proposed system performs robustly in challenging real-world situations such as occlusion, variable display size, defocus blur, perspective distortion and camera rotation. Unlike several existing visible light communication methods, DisCo works with off-the-shelf image sensors. It is compatible with a variety of sources (including displays, single LEDs), as well as reflective surfaces illuminated with light sources. We have built hardware prototypes that demonstrate DisCo's performance in several scenarios. Because of its robustness, speed, ease of use and generality, DisCo can be widely deployed in several CHI applications, such as advertising, pairing of displays with cell-phones, tagging objects in stores and museums, and indoor navigation.
+</p>
+
+</td></tr>
+				<tr>
+					<td><h3 id="Publications">Publications</h3>
+						<blockquote>
+				<b>"DisCo: Display Camera Communication Using Rolling Shutter Sensors," </b><br>K. Jo, M. Gupta and S.K. Nayar, <br>ACM Trans. on Graphics (also Proc. of ACM SIGGRAPH), <br>Vol. 35, No. 5, pp. 150:1-13, Jul. 2016.<br> [<a href="javascript:;" target="new">PDF</a>] [<a href="pub_bibtex-345.html">bib</a>] [<a href="copyright.html">&copy;</a>]<br><br><b>"DisCo: Displays that Communicate," </b><br>K. Jo, M. Gupta and S. K. Nayar, <br>Technical Report, Department of Computer Science, Columbia University, <br>Dec. 2014.<br> [<a href="javascript:;" target="new">PDF</a>] [<a href="pub_bibtex-332.html">bib</a>] [<a href="copyright.html">&copy;</a>]<br><br>
+						</blockquote>
+					</td>
+				</tr>
+				
+				<tr>
+					<td align="left">
+						<h3 id="Images">Images</h3>
+				
+						<table border="0" cellpadding="0" cellspacing="6">
+				
+						<tr>
+							<td align="left" valign="middle" width="171"><a href="static/picture/teaser10.png"><img class="imgthumb" src="static/picture/teaser_thumb4.png" border="1"></a></td>
+							<td align="left" valign="middle" width="10">&nbsp;</td>
+							<td align="left" valign="middle" width="512">
+								<strong>Concept of DisCo:</strong>
+								<p class="mediadescription">DisCo can work with a broad range of devices. (a) For transmitters, DisCo can use display monitors, light sources or objects illuminated by light as the transmitter (<q>Display</q>). 
+(b) The display sends information to the receiver, which can be implemented using rolling shutter cameras. 
+(c) The display also shows images for human consumption, while simultaneously communicating with the camera.</p>
+							</td>
+						</tr>
+						<tr>
+							<td height="8">&nbsp;</td>
+							<td height="8">&nbsp;</td>
+							<td height="8">&nbsp;</td>
+						</tr>
+					
+						<tr>
+							<td align="left" valign="middle" width="171"><a href="static/file/sde.png"><img class="imgthumb" src="static/picture/sde_thumb.png" border="1"></a></td>
+							<td align="left" valign="middle" width="10">&nbsp;</td>
+							<td align="left" valign="middle" width="512">
+								<strong>Input and Output of DisCo with Simultaneous Dual Exposure (SDE) Sensor:</strong>
+								<p class="mediadescription">(a) Exposure timing of an SDE rolling shutter sensor
+with two different exposures. (b) An example captured image (input) with a rolling shutter SDE sensor. The
+display was modulated with a 500 Hz. temporal sinusoid. (c-d) Images of different exposures are extracted
+from (b), from which the signal (e) and the flicker-free image (f) are recovered (output).</p>
+							</td>
+						</tr>
+						<tr>
+							<td height="8">&nbsp;</td>
+							<td height="8">&nbsp;</td>
+							<td height="8">&nbsp;</td>
+						</tr>
+					
+						<tr>
+							<td align="left" valign="middle" width="171"><a href="static/file/result_all.png"><img class="imgthumb" src="static/picture/result_all_thumb.png" border="1"></a></td>
+							<td align="left" valign="middle" width="10">&nbsp;</td>
+							<td align="left" valign="middle" width="512">
+								<strong>Experimental Demonstration of DisCo in Challenging Imaging Scenarios:</strong>
+								<p class="mediadescription">We have extensively tested the proposed system in a variety of real-world imaging situations. (a) Display smaller than camerafs FOV due to large display-camera distance. (b) Display larger than camerafs FOV due to large zoom/small display-camera distance. (c) Display blurred due to camera defocus. (d-e) Occluding objects between camera and display. In these examples, the signal (URL https://www.google.com/) was transmitted and received by the camera. The system adapts to challenging conditions by capturing multiple frames.</p>
+							</td>
+						</tr>
+						<tr>
+							<td height="8">&nbsp;</td>
+							<td height="8">&nbsp;</td>
+							<td height="8">&nbsp;</td>
+						</tr>
+					
+						</table>
+					</td>
+				</tr>
+				
+				<tr>
+					<td align="left">
+						<h3 id="Video">Video</h3>
+				
+						<table border="0" cellpadding="0" cellspacing="6">
+				
+						<tr>
+							<td align="left" valign="middle" width="171"><a href="javascript:;"><img class="imgthumb" src="static/picture/video.png" border="1"></a></td>
+							<td align="left" valign="middle" width="10">&nbsp;</td>
+							<td align="left" valign="middle" width="512">
+								<strong>Project Video:</strong>
+								<p class="mediadescription">
+This video introduces the concept of DisCo, summarizes the signal decode algorithm, and demonstrates several applications of our method, including advertising and communicating meta-information, pairing of devices, and Indoor navigation and location specific services. (With narration)
+</p>
+							</td>
+						</tr>
+						<tr>
+							<td height="8">&nbsp;</td>
+							<td height="8">&nbsp;</td>
+							<td height="8">&nbsp;</td>
+						</tr>
+					
+						</table>
+					</td>
+				</tr>
+				
+			<tr><td height="20"></td></tr>
+			</table></div>
+			</td>
+		</tr>
+		<tr>
+			<td height="100" align="left" valign="baseline"><iframe src="footer.html" width="864" height="100" scrolling="no" frameborder="no" allowtransparency="true" name="viewcourse"></iframe></td>
+		</tr>
+	</table>
+</body>
+</html>
+		
